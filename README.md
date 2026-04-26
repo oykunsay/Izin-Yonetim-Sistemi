@@ -187,3 +187,5 @@ curl -X PUT http://localhost:8000/izin-durum/{ID} \
   -H "Content-Type: application/json" \
   -d '{"durum":"Onaylandı"}'
 ```
+
+https://github.com/user-attachments/assets/c8b55256-8c6d-415a-8d36-0d8b6439e471
