@@ -182,7 +182,7 @@ curl -X POST http://localhost:8000/izin-talep \
 # Tüm izinleri listele
 curl http://localhost:8000/izinler
 
-# Durumu güncelle
+# Durumu güncelle (id'yi yukarıdaki çıktıdan alın)
 curl -X PUT http://localhost:8000/izin-durum/{ID} \
   -H "Content-Type: application/json" \
   -d '{"durum":"Onaylandı"}'
